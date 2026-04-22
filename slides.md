@@ -23,7 +23,7 @@ hideInToc: true
 
 # Omega Lab MS3
 
-An automatic night light
+An automatic night light pro
 
 <div class="absolute bottom-10">
   <span class="font-700">
