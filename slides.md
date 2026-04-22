@@ -93,7 +93,7 @@ flowchart LR
     COMP -->|Vin| FILTER[RC Low-pass Filter] -->|Vsensor| MOS2
     subgraph PWM[PWM Dimmer]
       MOS1[MOSFET1<br/>Control: Square Wave<br/>Source: Vsupply = 6V]
-      MOS2[MOSFET2<br/>Control: Square Wave<br/>Source: Vsensor]
+      MOS2[MOSFET2<br/>Control: Vsensor<br/>Source: Square Wave]
       COMP2[Voltage Comparator<br/>Input: Triangle wave<br/>Reference: Vref2]
       VIN --> TRIG
       VIN --> COMP
